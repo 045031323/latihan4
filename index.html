@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>latihhan3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        angka 1 = <b v-text="angka1"></b> <br>
+        angka 2 = <b v-text="angka2"></b> <br>
+        <br>
+        <table border="1">
+            <th>Operasi</th>
+            <th>Hasil</th>
+        <tr>
+            <td>hasil penjumlahan</td>
+            <td><b v-text="angka1 + angka2"></b></td>
+        </tr>
+        <tr>
+            <td>hasil pengurangan</td>
+            <td><b v-text="angka1 - angka2"></b></td>
+        </tr>
+        <tr>
+            <td>hasil perkalian</td>
+            <td><b v-text="angka1 * angka2"></b><br></td>
+        </tr>
+            <td>hasil pembagian</td>
+            <td><b v-text="angka1 / angka2"></b></td>
+    </table>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+p { background-color:rgb(40, 90, 255);
+    padding: 10px;
+    width: 400px;
+    height: auto;
+}
+table {
+    background-color: aqua;
+}
+td {
+    background-color: aquamarine;
+}
+th {
+    background-color: blanchedalmond;
+}
